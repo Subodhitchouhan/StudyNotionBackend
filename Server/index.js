@@ -26,7 +26,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: "http://localhost:3000", //frontend url   //yeha hum cors ko set krr rhe hai taki humara frontend jo hai wo backend ki req ko enterain kre
+		origin: "https://inspiring-clafoutis-90322e.netlify.app/", //frontend url   //yeha hum cors ko set krr rhe hai taki humara frontend jo hai wo backend ki req ko enterain kre
 		credentials: true,
 	})
 )
